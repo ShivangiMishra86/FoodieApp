@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="4dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/FavContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F89139"
+        android:orientation="vertical"
+        android:weightSum="11">
+
+        <ImageView
+            android:id="@+id/resFavImage"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="7"
+            android:background="#f5f5f5"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/resFavName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="1.5"
+
+            android:text="@string/name_of_res"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+
+
+        <TextView
+            android:id="@+id/resFavcost"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="@string/cost"
+            android:textColor="#000000"
+
+            android:textSize="15sp" />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:orientation="horizontal"
+       android:layout_gravity="center"    >
+        <TextView
+            android:id="@+id/FavRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:drawableEnd="@drawable/ic_star"
+            android:padding="1dp"
+            android:text="@string/_4_5"
+            android:textColor="#ECD649"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_heart" />
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

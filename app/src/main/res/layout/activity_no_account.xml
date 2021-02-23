@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NoAccountActivity"
+    android:orientation="vertical"
+
+android:background="@drawable/register"
+>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="Register Yourself"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter_your_details_for_registration"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:textColor="#EAF5F3"/>
+
+    <EditText
+        android:id="@+id/editTextDataName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="80dp"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_name"
+        android:textStyle="bold"
+        android:textColorHint="#EDFAF8"
+        android:textColor="#ffffff"
+       />
+
+    <EditText
+        android:id="@+id/editTextDataEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_email_id"
+        android:textStyle="bold"
+        android:textColorHint="#ECF8F6"
+        android:textColor="#ffffff"
+        />
+
+    <EditText
+        android:id="@+id/editTextDataMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/enter_mobile_number"
+        android:textStyle="bold"
+        android:textColorHint="#DDF0ED"
+        android:textColor="#ffffff"
+       />
+    <EditText
+        android:id="@+id/editTextDataPostalAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:hint="@string/enter_address"
+        android:textStyle="bold"
+        android:textColorHint="#EDF7F5"
+        android:textColor="#ffffff"
+       />
+
+
+    <EditText
+        android:id="@+id/editTextDataPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/enter_password"
+        android:textStyle="bold"
+        android:textColorHint="#E9F7F5"
+        android:textColor="#ffffff"
+       />
+
+    <EditText
+        android:id="@+id/editTextDataConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:textStyle="bold"
+        android:textColorHint="#E8F0EF"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#00574B"
+        android:textColor="#ffffff"/>
+
+
+
+</LinearLayout>

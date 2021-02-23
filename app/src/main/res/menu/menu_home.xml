@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+
+    <item
+    android:id="@+id/sort_high_to_low"
+    android:title="Cost(High to Low)"
+    android:icon="@drawable/ic_sort"
+/>
+    <item
+        android:id="@+id/sort_low_to_high"
+        android:title="Cost(Low to High)"
+        android:icon="@drawable/ic_sort"
+        />
+    <item
+        android:id="@+id/sortRating"
+        android:title="Rating"
+        android:icon="@drawable/ic_sort"
+        />
+    </group>
+</menu>

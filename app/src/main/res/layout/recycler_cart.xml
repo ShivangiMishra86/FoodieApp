@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+android:weightSum="8"
+
+     >
+    <TextView
+
+        android:id="@+id/CartNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_5"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_weight="1.5"
+        />
+
+    <TextView
+            android:id="@+id/resCartItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name_of_res"
+
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+        android:layout_weight="5"/>
+    <TextView
+            android:id="@+id/resCartCost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cost"
+
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_weight="1.5"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+</LinearLayout>
+
+
+

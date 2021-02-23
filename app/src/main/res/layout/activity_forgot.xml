@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ForgotActivity"
+    android:padding="20dp"
+    android:background="@drawable/forgot">
+
+    <EditText
+        android:id="@+id/editTextEmailForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+       android:layout_below="@id/textViewMessage"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_email_address"
+        />
+
+    <EditText
+        android:id="@+id/editTextPhoneForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_below="@id/editTextEmailForgot"
+
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_mobile_number"/>
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_email_address_and_mobile_number"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+       />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_below="@id/editTextPhoneForgot"
+        android:layout_centerHorizontal="true"
+        android:background="#00574B"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

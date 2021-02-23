@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FavFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favourites"
+        android:textColor="#ffffff"
+        android:id="@+id/txtFavFragment"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleFavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtFavFragment"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/progressFavLayout"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressFavBar"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

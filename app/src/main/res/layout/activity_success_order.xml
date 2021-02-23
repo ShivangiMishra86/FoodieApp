@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SuccessOrderActivity"
+    android:background="@drawable/success_order">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/progressLayoutOrder"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBarOrder"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/tick"
+       android:layout_centerHorizontal="true"
+        android:id="@+id/tick"
+        android:layout_marginTop="180dp"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/tick"
+       android:id="@+id/Msg"
+       android:text="@string/congratulation_your_order_is_placed"
+       android:layout_centerHorizontal="true"
+       android:textStyle="bold"
+       android:textSize="20sp"
+       android:padding="10dp"/>
+
+
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+       android:layout_below="@id/Msg"
+
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

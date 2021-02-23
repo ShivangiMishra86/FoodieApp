@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="don_t_have_an_account_signin">don_t_have_an_account_signin</string>
+    <string name="forgot_password">forgot_password</string>
+    <string name="login">LogIn</string>
+    <string name="enter_e_mail_address">Enter E-mail address</string>
+
+    <string name="preference_file_name">LoginPreference</string>
+
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="menu">Menu</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_of_res">name of res</string>
+    <string name="cost">cost</string>
+    <string name="_4_5">4.5</string>
+    <string name="fav">Fav</string>
+    <string name="home_fragment">home fragment</string>
+    <string name="proceed_to_cart">Proceed To Cart</string>
+    <string name="choose_from_menu_listed_below">choose_from_menu_listed_below</string>
+    <string name="favourites">Favourites</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite">Favourite</string>
+    <string name="cart">Cart</string>
+    <string name="faq">FAQ</string>
+    <string name="log_out">Log Out</string>
+    <string name="my_cart">My Cart</string>
+    <string name="proceed_to_place_order">proceed_to_place_order</string>
+
+
+    <string name="_5">5</string>
+    <string name="order_history">Order History</string>
+    <string name="pind_tadka">pind tadka</string>
+    <string name="_14_12_20">14-12-20</string>
+    <string name="_06_30_20">06:30:20</string>
+    <string name="enter_your_email_address_and_mobile_number">enter_your_email_address_and_mobile_number</string>
+    <string name="enter_email_address">enter_email_address</string>
+    <string name="next">next</string>
+    <string name="submit">Submit</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_passsword">Enter_Passsword</string>
+    <string name="enter_otp">Enter_OTP</string>
+    <string name="ok">Ok</string>
+    <string name="welcome_in_foodie">Welcome In Foodie</string>
+    <string name="enter_name">enter_name</string>
+    <string name="enter_email_id">Enter Email-Id</string>
+    <string name="faq_answer_five">A.5 You can pay both online as well as cash on delivery.</string>
+
+    <string name="faq_answer_four">A.4 Since , it is edible material so try to eat the food item within 2–3 hours.</string>
+
+    <string name="faq_answer_one">A.1 The food is delivered by our certified workers so, whenever you place the order ,check their identity while receiving  food .for a safety purpose from frauds. </string>
+
+    <string name="faq_answer_six">A.6 Yes, the food is prepared as per the guidelines of WHO .So ,Don not  worry for this and Enjoy your meal. </string>
+
+    <string name="faq_answer_three">A.3 No you can not cancel the order ,Once it is placed.</string>
+
+    <string name="faq_answer_two">A.2 Normally, we will try to deliver the food in 30 minutes but ,it can take more time for some reasons as traffic,rain etc.  </string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="register">Register</string>
+    <string name="choose_your_meal">Choose your meal::</string>
+    <string name="congratulation_your_order_is_placed">Congratulation! Your Order is placed.</string>
+</resources>
